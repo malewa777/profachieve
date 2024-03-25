@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_filters %}
+
+
+{% block content %}
+
+    <div class="features">
+    <h1>{{ article.title }}</h1>
+    <p>{{ article.date }}</p>
+    </div>
+    
+{% endblock content %}
